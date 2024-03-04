@@ -1,0 +1,27 @@
+
+
+/* Increase the font size of h2 headings */
+h2 {
+  font-size: 24px; /* Set the font size to 24 pixels */
+}
+body {
+  background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("background-image768px.jpg");
+    background-repeat: no-repeat;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url("background-image480px.jpg");
+    background-repeat: no-repeat;
+  }
+
+}
